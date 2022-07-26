@@ -16,3 +16,8 @@
 // * * * * * 
 
 //! Write a JavaScript program to sum the multiples of 3 and 5 under 1000.
+
+//! Write a for loop that will iterate from 0 to 10. For each iteration of the for loop, it will multiply the number by 9 and log the result (e.g. "2 * 9 = 18").
+
+
+//! Write a JavaScript program to check from two given integers, whether one is positive and another one is negative.
