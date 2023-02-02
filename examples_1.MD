@@ -17,7 +17,6 @@ let sum = 0
 }
 console.log(positiveSum(catArr))
 ```
-<details>
   <summary>Solution: forEach method</summary>
 
 ```js
@@ -33,7 +32,6 @@ function positiveSump(arr){
 }
 console.log(positiveSum(catArr))
 ```
-<details>
   <summary>Solution: map method</summary>
 
 ```js
@@ -49,7 +47,6 @@ function positiveSum(arr){
 }
 console.log(positiveSum(catArr))
 ```
-<details>
   <summary>Solution: For of Loop</summary>
 
 ```js
