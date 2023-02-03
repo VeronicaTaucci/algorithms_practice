@@ -84,18 +84,36 @@
 // console.log(similarCatNames(catListOld, catListNew))
 
 
-let catListOld = ['Lily', 'Eka', 'Oprah', 'Adda','Cora','Lucky']
-let catListNew = ['Lily', 'Eka', 'Kira', 'Lord','Beka','Adda']
-function similarCatNames(oldCats, newCats){
-    let result = []
-    for(let i=0 ; i< oldCats.length; i++){
-        for(let j=0; j< newCats.length; j++){
-            if(oldCats[i] === newCats[j]){
-                result.push(newCats[j])
-            }
-        }
-    }
-    return result
-}
-let catNames = similarCatNames(catListOld, catListNew)
-console.log(catNames)
+// let catListOld = ['Lily', 'Eka', 'Oprah', 'Adda','Cora','Lucky']
+// let catListNew = ['Lily', 'Eka', 'Kira', 'Lord','Beka','Adda']
+// function similarCatNames(oldCats, newCats){
+//     let result = []
+//     for(let i=0 ; i< oldCats.length; i++){
+//         for(let j=0; j< newCats.length; j++){
+//             if(oldCats[i] === newCats[j]){
+//                 result.push(newCats[j])
+//             }
+//         }
+//     }
+//     return result
+// }
+// let catNames = similarCatNames(catListOld, catListNew)
+// console.log(catNames)
+
+
+
+
+//TODO
+// Create a function named positiveSum () that counts how many positive numbers are in an array.
+    // let catArr = [1,2,90,18,4,-1,-2,]
+
+    // function positiveSum(arr){
+    //     let result = 0 //5 
+    //     for (let i=0; i< arr.length; i++){
+    //         if(arr[i] > 0){
+    //             result ++
+    //         }
+    //     }
+    //     return result
+    // }
+    // console.log(positiveSum(catArr))

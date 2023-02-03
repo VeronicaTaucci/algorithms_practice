@@ -127,6 +127,7 @@ let numToString = num.toString() //first we need to convert the number to a stri
     return idArr
 }
 
+console.log(createID(35231))
 ```
 </details>
 
@@ -137,7 +138,6 @@ let numToString = num.toString() //first we need to convert the number to a stri
   <summary>Regular For Loop</summary>
 
 ```js
-console.log(createID(35231))
 let times = [1,3,6,8]
 function foodTime(arr){
     let newArr=[]
