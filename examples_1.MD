@@ -129,6 +129,7 @@ let numToString = num.toString() //first we need to convert the number to a stri
 
 ```
 </details>
+
 #### There is a list of numbers describing which cats are fed in the morning. Unfortunately, a few numbers are missing from the list. Create a function named foodTime () which takes a list of numbers from foodList as an argument and returns a new list which includes the missing numbers. The numbers need to be in ascending order. For example: Input: 1,3,5,6,7,8 Output: 1,2,3,4,5, 6, 7, 8
 <details>
   <summary>Solutions</summary>
@@ -148,6 +149,7 @@ function foodTime(arr){
 console.log(foodTime(times))
 ```
 </details>
+
 #### The cat of one of our customers escaped and we were told that his cat is in our shelter. Create a function named searchCat() which takes an array of cats objects and a name string as an argument. If the cat is part of the list, the function must return the object, otherwise it must return 0.
 
 
